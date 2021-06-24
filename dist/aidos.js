@@ -3619,7 +3619,7 @@
         // If input does not have keyIndex and address, return false
         if (!input.hasOwnProperty('keyIndex') || !input.hasOwnProperty('address')) return false;
 
-        if (!isAddress(address)) {
+        if (!isAddress(input.address)) {
           return false;
         }
       }
